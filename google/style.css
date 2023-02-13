@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+body{
+    background-color: #202124;
+    width: 98vw;
+    height: 98vh;
+}
+
+header{
+    border: 1px solid red;
+    text-align: right;
+    margin: 5px;
+    padding: 5px;
+}
+
+header > nav{
+    margin-bottom: 10px;
+}
+
+header > nav> a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+a > .icones{
+    width: 30px;
+    position: relative;
+    
+
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid red;
+}
+
+div#position{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+img#logo{
+    width: 275px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+input#pesquisa{
+    margin-top: 50px;
+    width: 500px;
+    height: 50px;
+    border-radius: 100px; 
+    background-color: #202124;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input.botao{
+    width: 150px;
+    height: 40px;
+    background-color: #303134;
+    margin-top: 90px;
+    color: white;
+    border: none;
+    padding: 5px;
+
+}
+
+footer > div{
+    margin: 0px 0px 1px 0px;
+}
+
+footer > div > p{
+    color: grey;
+    background-color: #171717;
+    padding: 20px;
+    width: 100vw;
+}
+
+footer > nav {
+    color: grey;
+    background-color: #171717;
+    margin: 0 10 0 10;
+    padding: 20px;
+    width: 100vw;
+}
+
+footer > nav > a{
+    text-decoration: none;
+    color: gray;
+}
