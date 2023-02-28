@@ -32,6 +32,7 @@ header{
 header > nav{
     margin-bottom: 5px;
     
+    
 }
 
 header > nav> a{
@@ -50,7 +51,7 @@ a > .icones{
 
 main{
     width: 100%;
-    height: 80vh;
+    height: 82vh;
 }
 
 div#position{
@@ -70,12 +71,50 @@ img#logo{
 input#pesquisa{
     width: 500px;
     height: 50px;
+    border: 1px solid lightgray;
     border-radius: 500px; 
+    display: block;
     background-color: #202124;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+img#teclado{
+    width: 30px;
+    position: absolute;
+    margin-left: 150px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+img#microfone{
+    width: 20px;
+    position: absolute;
+    margin-left: 190px;
+    display: flex;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+img#imagens{
+    width: 20px;
+    position: absolute;
+    margin-left: 220px;
+    display: flex;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
 }
 
  /* Botoes */
@@ -99,7 +138,7 @@ footer > div{
 }
 
 footer > div > p{
-    color: grey;
+    color: lightgray;
     background-color: #171717;
     width: 100vw;
     margin-left: 10px;
@@ -134,7 +173,7 @@ margin: 2px;
 nav > a{
 
     text-decoration: none;
-    color: gray;
+    color: lightgrey;
     padding-left: 15px;
 
 }
@@ -142,13 +181,13 @@ nav > a{
 div > nav.left{
     display: flex;
     justify-content: flex-start;
-    padding: 3px 5px 3px 20px;
 }
 
 div > nav.right{
+    margin-left: 1200px;
     display: flex;
     justify-content: flex-end;
-    padding: 2px 5px 2px 20px;
+
 }
 
 /* links configuracoes */
