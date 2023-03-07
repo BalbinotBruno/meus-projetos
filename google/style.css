@@ -146,6 +146,13 @@ footer > div > p{
     margin-left: 10px;
 }
 
+#footer{
+    color: lightgray;
+    background-color: #171717;
+    width: 100vw;
+    position: fixed;
+  
+}
 footer > nav {
     color: grey;
     background-color: #171717;
@@ -213,6 +220,31 @@ div > nav.right{
     display: none;
   }
   
+  .menu{
+    text-decoration: none;
+    color: white;
+    display: block;
+    position: fixed;
+
+  }
+  
   #passar_mouse:hover #mostrar{
     display:block;
+    }
+    .menu-lateral {
+        display: none;
+        text-decoration: none;
+
+    }
+    
+    nav:hover .menu-lateral {
+        display: block;
+        position: absolute;
+        margin-bottom: 100vh;
+        
+    }
+
+    #principal #rodape{
+        position: relative;
+
     }
