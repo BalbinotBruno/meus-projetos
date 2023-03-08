@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Index */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+} 
+
+#logo{
+    width: 70px;
+}
+
+
+.menu {
+    display: none;
+
+}
+
+nav:active .menu{
+    display: block;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li{
+    display: block;
+}
+
+.noticias{
+    color: white;
+}
