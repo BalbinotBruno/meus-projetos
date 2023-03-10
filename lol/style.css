@@ -5,41 +5,35 @@
     margin: 0;
     padding: 0;
 }
-nav{
-    background-color: black;
+
+#inicio{
+    width: 50px;
+}
+
+#menu{
+    display: flex;
+    background-color: #111111;
+    color: white;
     width: 100vw;
-    height: 10vh;
-    display: flex;
-} 
-
-#logo{
-    width: 70px;
-    display: flex;
 }
 
-
-.menu {
-    display: none;
-
-}
-
-nav:active .menu{
-    display: block;
-}
-a{
-    text-transform: uppercase;
-    text-decoration: none;
+.links{
+    
 }
 
 li{
-    display: block;
+  
 }
-
-.noticias{
+a{
+    text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 
-.linksmenu{
-    display: flex;
-    position: absolute;
+header > ul > li{
+    padding: 20px;
+}
+
+#pesquisa{
+    border-radius: 50px;
 }
